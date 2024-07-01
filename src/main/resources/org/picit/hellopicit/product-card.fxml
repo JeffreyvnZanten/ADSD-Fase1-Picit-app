@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox xmlns="http://javafx.com/javafx" 
+xmlns:fx="http://javafx.com/fxml" 
+fx:controller="org.picit.hellopicit.ProductCardController" 
+  style="-fx-padding: 10; -fx-margin: 6; -fx-background-color: #90EE90; -fx-border-color: #FFFFFF; -fx-border-width: 1px;">
+    <ImageView fx:id="productImageView" />
+    <Label fx:id="productNameLabel" />
+    <Label fx:id="productQuantity" />
+    <Label fx:id="productPriceLabel" />
+    <Button fx:id="addToCartButton"  text="Toevoegen" />
+</VBox>

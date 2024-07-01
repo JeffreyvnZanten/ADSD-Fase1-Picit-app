@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.picit.hellopicit.ProductController">
+    <HBox spacing="10">
+        <children>
+            <VBox alignment="CENTER" spacing="10">
+                <children>
+                    <ImageView fx:id="bramenView" fitWidth="100" fitHeight="50" />
+                    <Label fx:id="bramenBeschrijving"/>
+                    <HBox spacing="10">
+                        <Button fx:id="bramenKnop" text="Add" />
+                        <!-- increment knop doet niks -->
+                        <Button fx:id="incrementBramenKnop" text="+" />
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="10">
+                <children>
+                    <ImageView fx:id="appelView" fitWidth="100" fitHeight="50" />
+                    <Label fx:id="appelBeschrijving"/>
+                    <HBox spacing="10">
+                        <Button fx:id="appelKnop" text="Add" />
+                        <!-- increment knop doet niks -->
+                        <Button fx:id="incrementAppelKnop" text="+" />
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="10">
+                <children>
+                    <ImageView fx:id="banaanView" fitWidth="100" fitHeight="50" />
+                    <Label fx:id="banaanBeschrijving"/>
+                    <HBox spacing="10">
+                        <Button fx:id="banaanKnop" text="Add" />
+                        <!-- increment knop doet niks -->
+                        <Button fx:id="incrementBanaanKnop" text="+" />
+                    </HBox>
+                </children>
+            </VBox>
+            <VBox alignment="CENTER" spacing="10">
+                <children>
+                    <ImageView fx:id="mangoView" fitWidth="100" fitHeight="50" />
+                    <Label fx:id="mangoBeschrijving"/>
+                    <HBox spacing="10">
+                        <Button fx:id="mangoKnop" text="Add" />
+                        <!-- increment knop doet niks -->
+                        <Button fx:id="incrementMangoKnop" text="+" />
+                    </HBox>
+                </children>
+            </VBox>
+        </children>
+    </HBox>
+    <Button text="Cart" onAction="#cartScene" StackPane.alignment="TOP_RIGHT"/>
+</StackPane>
